@@ -1,0 +1,3 @@
+[submodule "fast-export"]
+	path = fast-export
+	url = https://github.com/bigsan/fast-export.git
