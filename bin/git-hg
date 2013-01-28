@@ -1,5 +1,15 @@
 #!/usr/bin/env bash
 
+if [ "$HGENCODING"="" ]; then
+    HGENCODING=UTF-8
+    export HGENCODING
+fi
+
+if [ "$FILENAMEENCODING"="" ]; then
+    FILENAMEENCODING=big5
+    export FILENAMEENCODING
+fi
+
 if which python2 >&/dev/null; then
     PYTHON=python2
     export PYTHON
